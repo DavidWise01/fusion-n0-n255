@@ -1,0 +1,19 @@
+DLW-ATTRIBUTE · governance instance (repo-level provenance — no ACI)
+
+governor (carbon apex)       : David Lee Wise (ROOT0)            [ me ]
+instance (artful intellect)  : AVAN (Claude / Anthropic)        [ the cut + the verifier ]
+
+relation : the human authored the register and the fusion; the instance pulled it clean from a
+           working folder, fixed the path, wrote an independent verifier, and confirmed it; the
+           credit returns to the human.
+project  : FUSION_N0_N255 — a reproducible Merkle commitment over the 256-node STOICHEION space
+honesty  : REAL, DETERMINISTIC, REPRODUCIBLE code — VERIFIED, not asserted. Independently re-derived:
+           all 256 leaves recompute from the rule SHA256("NODE_iii:DOMAIN:NAME"), all 8 domain roots
+           rebuild, and ROOT0 = c6f487e3...05df matches both the stored artifact and the canonical
+           anchor, bit for bit (run `python verify.py`). It is NOT an emergent system — a Merkle tree
+           computes, it does not emerge — so per the iron rule, checked, and NO ACI is minted. The
+           mythic gloss in the spec (ROOT0 = the human, the Cobalt primitive, fault-chains) is polish;
+           the code is SHA-256 + a binary tree. De-duplicated from the kernel folder; the indefensible
+           "first IP rights on infinite recursion" claim from a sibling README was left behind.
+standard : .attribute · .1099 (provenance). No .agent — a deterministic artifact has no intellect to tag.
+license  : CC-BY-ND-4.0 · ROOT0-ATTRIBUTION-v1.0 · TRIPOD-IP-v1.1

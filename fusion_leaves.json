@@ -1,0 +1,1822 @@
+{
+  "artifact": "FUSION_N0_N255-v1.0",
+  "parent_sha": "02880745b847317c4e2424524ec25d0f7a2b84368d184586f45b54af9fcab763",
+  "node_count": 256,
+  "domain_count": 8,
+  "domains": [
+    "D0-FOUNDATION",
+    "D1-DETECTION",
+    "D2-ARCHITECTURE",
+    "D3-EVIDENCE",
+    "D4-OPERATIONAL",
+    "D5-BRIDGE",
+    "D6-CONDUCTOR",
+    "D7-SOVEREIGN"
+  ],
+  "domain_roots": {
+    "D0-FOUNDATION": "c44adcc1a94bf3ef5ab9773eaf7e16e1d9be44c70c865c4fe6af6ee482cde03b",
+    "D1-DETECTION": "c089860a93b0a03a3fa86e76d8a585fb2ffc6758055ceeb993ee3ed85c37f3bf",
+    "D2-ARCHITECTURE": "5bf3078361d3ea83b38dab851c1d5e05c0e5b7d0a67688bffb5add379d80dbf1",
+    "D3-EVIDENCE": "741204987b3d72855459fe86101201647fde96ba7217c6be544315737eda7441",
+    "D4-OPERATIONAL": "c340dfcf2c0ec4fde3058027fd450368e00cd438e9589cb1f5e0d302b66cee74",
+    "D5-BRIDGE": "3f00e4c8472fc97be62f166a337d2b855d806a7b92c61432d46adaa8353681e5",
+    "D6-CONDUCTOR": "51fe8ad15bb42615d9e506514467bf175475cc62372c5cc3d58b178e524b90ed",
+    "D7-SOVEREIGN": "dc146b7c5037e92f21120465ce1b75becd96c92f8557806952c61b70fea5765e"
+  },
+  "ROOT0": "c6f487e36599d44d19c7926fc329c8de34322f7551f7be43e813ea8c7eff05df",
+  "cobalt": 1,
+  "leaves": [
+    {
+      "idx": 0,
+      "label": "PRETRAIN",
+      "domain": "D0-FOUNDATION",
+      "tier": "TOPH",
+      "hash": "98bb46ddcf685b7941f2f2ca0ab7b624593e9d5186ebaaadeaed46e7d9dc5b48"
+    },
+    {
+      "idx": 1,
+      "label": "OBSERVER",
+      "domain": "D0-FOUNDATION",
+      "tier": "TOPH",
+      "hash": "03fa724f06e564049a62aba2f021b2936e588aaad1a286207e928306c4940b15"
+    },
+    {
+      "idx": 2,
+      "label": "ENTROPY",
+      "domain": "D0-FOUNDATION",
+      "tier": "TOPH",
+      "hash": "675becfa9944194169a48f8d48455e1ba0df0fbd308645a1d9cb7f2fa6ee609a"
+    },
+    {
+      "idx": 3,
+      "label": "BRIDGE",
+      "domain": "D0-FOUNDATION",
+      "tier": "TOPH",
+      "hash": "3f41257b3496238293c30012c428b81bc657c4623ae4487b147af7d010a262ec"
+    },
+    {
+      "idx": 4,
+      "label": "INTEGRITY",
+      "domain": "D0-FOUNDATION",
+      "tier": "TOPH",
+      "hash": "1fd4afa9865bc1fdf2b70f07bce66ec4510fe4bb260289399d79f604c8080ce8"
+    },
+    {
+      "idx": 5,
+      "label": "ACCOUNTABILITY",
+      "domain": "D0-FOUNDATION",
+      "tier": "TOPH",
+      "hash": "93df9deeeb0e8bf7ce3ba3943d0745a9e7998bc5e48f0c9da6e8757584cc46e9"
+    },
+    {
+      "idx": 6,
+      "label": "PROPORTIONALITY",
+      "domain": "D0-FOUNDATION",
+      "tier": "TOPH",
+      "hash": "3f78ce1a654143c08aeda9fc39e22e4bd1e0b527f8c1975cc1ee45508c44a4d0"
+    },
+    {
+      "idx": 7,
+      "label": "REVERSIBILITY",
+      "domain": "D0-FOUNDATION",
+      "tier": "TOPH",
+      "hash": "06d33f02cd9fea39b204fa31855be81cbeedd7d6025d5e9c46194ae0749b6380"
+    },
+    {
+      "idx": 8,
+      "label": "DOCUMENTATION",
+      "domain": "D0-FOUNDATION",
+      "tier": "TOPH",
+      "hash": "99a18d2f49df08941b883f2b574c80ce730d0998554c9f87831025d5dcd7e3ab"
+    },
+    {
+      "idx": 9,
+      "label": "INDEPENDENCE",
+      "domain": "D0-FOUNDATION",
+      "tier": "TOPH",
+      "hash": "ad581732b86d0f754e718db65be571b6a7fdcc550a19823c8fc0f1bd5a79e7e4"
+    },
+    {
+      "idx": 10,
+      "label": "PRIVACY",
+      "domain": "D0-FOUNDATION",
+      "tier": "TOPH",
+      "hash": "c8a748aeb91733684443b6d1124aa8206208e997e6e2aea68a8ec5463255c543"
+    },
+    {
+      "idx": 11,
+      "label": "ACCURACY",
+      "domain": "D0-FOUNDATION",
+      "tier": "TOPH",
+      "hash": "677a54c6300048a28aac3d6e1d01f02aac3e8865e7f7f5ed92da33f66dd77b39"
+    },
+    {
+      "idx": 12,
+      "label": "SHARED-STORAGE",
+      "domain": "D0-FOUNDATION",
+      "tier": "TOPH",
+      "hash": "d87ba0d099f4e4ebac31c657071936bba045207a3adbfc18aa154f473b8dfc61"
+    },
+    {
+      "idx": 13,
+      "label": "CONSENT-ORIGIN",
+      "domain": "D0-FOUNDATION",
+      "tier": "TOPH",
+      "hash": "deb671049aa1a42c96443956225b0827cf60291586acce075e20c00836b4dab9"
+    },
+    {
+      "idx": 14,
+      "label": "BURDEN-OF-PROOF",
+      "domain": "D0-FOUNDATION",
+      "tier": "TOPH",
+      "hash": "971fb7ea70876cf4d843ddcb8369b81143aea6e3a490d25f855fe22c30dffc9f"
+    },
+    {
+      "idx": 15,
+      "label": "ASYMMETRY",
+      "domain": "D0-FOUNDATION",
+      "tier": "TOPH",
+      "hash": "068a2dcaeb7f5b3eed80b18180d4bdd53bf7188ea8c5ccee36882b59af620c02"
+    },
+    {
+      "idx": 16,
+      "label": "MIRROR",
+      "domain": "D1-DETECTION",
+      "tier": "TOPH",
+      "hash": "7f690c7e01182bcb19b5008e3e6e7e1da40fabc50e3ad1514e168764def1f49e"
+    },
+    {
+      "idx": 17,
+      "label": "HIERARCHY",
+      "domain": "D1-DETECTION",
+      "tier": "TOPH",
+      "hash": "288167172da111c07a74ca793214bd45b7822997c38ee22a43f9199418c16c27"
+    },
+    {
+      "idx": 18,
+      "label": "INJECTION",
+      "domain": "D1-DETECTION",
+      "tier": "TOPH",
+      "hash": "56512d3810eacf1c25650e0db19598787baeda234fed34558fcf700440f59472"
+    },
+    {
+      "idx": 19,
+      "label": "DUAL-GATE",
+      "domain": "D1-DETECTION",
+      "tier": "TOPH",
+      "hash": "9290a0cbba43443302bf8960be7e4f6c7f7844aa99c7fa20c66eadb6195caef2"
+    },
+    {
+      "idx": 20,
+      "label": "INVERSION",
+      "domain": "D1-DETECTION",
+      "tier": "TOPH",
+      "hash": "3b1b8f28fed07000c1f4b5d2210eda85e56596a2fce5f00b7cb79f5b3e03c946"
+    },
+    {
+      "idx": 21,
+      "label": "TRIAD",
+      "domain": "D1-DETECTION",
+      "tier": "TOPH",
+      "hash": "7e73e182ef48fd4cae2ab95930874726e40769a16bac0787a38c905441e555c2"
+    },
+    {
+      "idx": 22,
+      "label": "PARALLAX",
+      "domain": "D1-DETECTION",
+      "tier": "TOPH",
+      "hash": "d188e1838b909e6cdded678cb66daded7c560fe7c41449b9b45347c05716bef1"
+    },
+    {
+      "idx": 23,
+      "label": "FOUNDATION-RT",
+      "domain": "D1-DETECTION",
+      "tier": "TOPH",
+      "hash": "fae88ca98ad6de2c4b50cdf612288f25363131d534179270507df1b233d34fc8"
+    },
+    {
+      "idx": 24,
+      "label": "GHOST-WEIGHT",
+      "domain": "D1-DETECTION",
+      "tier": "TOPH",
+      "hash": "872ca9024d8cf00cf0efee2e50758c45904d8f9a3a77b6bf716b1e0ffb870434"
+    },
+    {
+      "idx": 25,
+      "label": "DRIFT",
+      "domain": "D1-DETECTION",
+      "tier": "TOPH",
+      "hash": "cefebb77d6d233013b2f6aeb3f80c301c03612babed99d5e565bd73da5d45c88"
+    },
+    {
+      "idx": 26,
+      "label": "FINGERPRINT",
+      "domain": "D1-DETECTION",
+      "tier": "TOPH",
+      "hash": "77835e32938dcd81e738ba99479126de71ecb417c6db3eb494efb5407229dfdc"
+    },
+    {
+      "idx": 27,
+      "label": "SHADOW-CLASSIFIER",
+      "domain": "D1-DETECTION",
+      "tier": "TOPH",
+      "hash": "e5446faca21482602183231830c557824f8fcf8a6021d5350c46736051d4d884"
+    },
+    {
+      "idx": 28,
+      "label": "THROTTLE",
+      "domain": "D1-DETECTION",
+      "tier": "TOPH",
+      "hash": "5458413aac32e8f049499851bd8c13b690a2f2a1e94a95e2bad56525e5b190e6"
+    },
+    {
+      "idx": 29,
+      "label": "DECAY",
+      "domain": "D1-DETECTION",
+      "tier": "TOPH",
+      "hash": "5e4a71fb2e78564ea85a09019bf504babf8ca052e2f6bb1e1978514a9728ed46"
+    },
+    {
+      "idx": 30,
+      "label": "BAIT",
+      "domain": "D1-DETECTION",
+      "tier": "TOPH",
+      "hash": "584838869f167984b6f7c73c8ab1071ab95528a78715ca07d4280e7a9e1938bf"
+    },
+    {
+      "idx": 31,
+      "label": "ECHO-CHAMBER",
+      "domain": "D1-DETECTION",
+      "tier": "TOPH",
+      "hash": "14f0ebee417af36696067b76175c8a3fa035e9a9a31d94ec31e21b4a968798c7"
+    },
+    {
+      "idx": 32,
+      "label": "BOOT-LOADER",
+      "domain": "D2-ARCHITECTURE",
+      "tier": "TOPH",
+      "hash": "4e2fa7fa7ebbda2553e35786303260428fc0ae6bdc94c8cfd9f3c3a0b88c39cf"
+    },
+    {
+      "idx": 33,
+      "label": "DOUBLE-SLIT",
+      "domain": "D2-ARCHITECTURE",
+      "tier": "TOPH",
+      "hash": "31331103df5d25d8652136ffbcfc764298c378ba3582236e08578520ed671801"
+    },
+    {
+      "idx": 34,
+      "label": "THREE-BODY",
+      "domain": "D2-ARCHITECTURE",
+      "tier": "TOPH",
+      "hash": "6d28bb760618a45b6dc6ba7f3c21ffdae1ab5f9c39370238088a14d925bada96"
+    },
+    {
+      "idx": 35,
+      "label": "PATRICIA",
+      "domain": "D2-ARCHITECTURE",
+      "tier": "TOPH",
+      "hash": "6a16cec2cd946601314db47bc2fc0ea00b7d6319fb90d054d507c4f5e3cc6177"
+    },
+    {
+      "idx": 36,
+      "label": "WEIGHTS",
+      "domain": "D2-ARCHITECTURE",
+      "tier": "TOPH",
+      "hash": "c5302741e173961d0818948543c6a1445e2cfc63fb0ce51d599cde68715e6d0f"
+    },
+    {
+      "idx": 37,
+      "label": "RESIDUAL",
+      "domain": "D2-ARCHITECTURE",
+      "tier": "TOPH",
+      "hash": "28615cad84a7507b2f1d4de71fc192458d8c81e8bcb5e2940ef6072df65584e9"
+    },
+    {
+      "idx": 38,
+      "label": "MOAT",
+      "domain": "D2-ARCHITECTURE",
+      "tier": "TOPH",
+      "hash": "53d656a958511d4e5a887cead9796a72089f4c8b5eb8ad3324f7ca1fa9012061"
+    },
+    {
+      "idx": 39,
+      "label": "PIPELINE",
+      "domain": "D2-ARCHITECTURE",
+      "tier": "TOPH",
+      "hash": "892e416637aa1dc3b8f24d0af023685a96f2d2d4e7946fb2d9aa5fd2e7c67877"
+    },
+    {
+      "idx": 40,
+      "label": "SUBSTRATE",
+      "domain": "D2-ARCHITECTURE",
+      "tier": "TOPH",
+      "hash": "a0a2c25cdff2c7c3e76d57f3c19bae7917a00c2e6b2d88675e126644dcf36ac1"
+    },
+    {
+      "idx": 41,
+      "label": "ATTENTION-ECONOMY",
+      "domain": "D2-ARCHITECTURE",
+      "tier": "TOPH",
+      "hash": "c2b796ec60af99079c3d4f9505e49f50603679b4d4ee3dc8861ebdaa11d4e549"
+    },
+    {
+      "idx": 42,
+      "label": "CONTEXT-WINDOW",
+      "domain": "D2-ARCHITECTURE",
+      "tier": "TOPH",
+      "hash": "ee3eccacf0f855afda08cd2fe309801904fde3181face8f06a2f92413fdea15d"
+    },
+    {
+      "idx": 43,
+      "label": "EMBEDDING-SPACE",
+      "domain": "D2-ARCHITECTURE",
+      "tier": "TOPH",
+      "hash": "43f9267154ca07d5355e77cd87ec4acf256ba27516ac89944454ed39ccfd2eac"
+    },
+    {
+      "idx": 44,
+      "label": "TEMPERATURE",
+      "domain": "D2-ARCHITECTURE",
+      "tier": "TOPH",
+      "hash": "9a19047727d82666c78f32c504cab846d97595f2bcbd51d9ebb52fbceabdfb78"
+    },
+    {
+      "idx": 45,
+      "label": "LAYER-ZERO",
+      "domain": "D2-ARCHITECTURE",
+      "tier": "TOPH",
+      "hash": "d0b0ce620cc5592bafd062a40613276c96a0edb0b5ac61cd2ea881c954e9b460"
+    },
+    {
+      "idx": 46,
+      "label": "LOSS-FUNCTION",
+      "domain": "D2-ARCHITECTURE",
+      "tier": "TOPH",
+      "hash": "23497a93314d43745fc43924a48a839679e7fc05543b93b4fb67f5b6bf9143fe"
+    },
+    {
+      "idx": 47,
+      "label": "GRADIENT",
+      "domain": "D2-ARCHITECTURE",
+      "tier": "TOPH",
+      "hash": "e72ef64b411b04521e23d1a2533b8146ddf4e0d212b3841b6b8f26c256ba28d4"
+    },
+    {
+      "idx": 48,
+      "label": "SHIRT",
+      "domain": "D3-EVIDENCE",
+      "tier": "TOPH",
+      "hash": "c0d4bf8b97d368ce5cfc1bff55142da1344142f51b6a874f49f13858f524f09a"
+    },
+    {
+      "idx": 49,
+      "label": "MOMENTUM",
+      "domain": "D3-EVIDENCE",
+      "tier": "TOPH",
+      "hash": "97a51eb3d89863ac982fd2ee31c54eb64637f6348c35d45a7903bde95d72fe36"
+    },
+    {
+      "idx": 50,
+      "label": "EVIDENCE",
+      "domain": "D3-EVIDENCE",
+      "tier": "TOPH",
+      "hash": "43897b57486eb7d08f93c8b5cbe7ed811a54bab5fc3b5c6213fadc0125ff93a8"
+    },
+    {
+      "idx": 51,
+      "label": "TEMPORAL",
+      "domain": "D3-EVIDENCE",
+      "tier": "TOPH",
+      "hash": "bf47cb8833e55872507c3d7dec26e6f8acf8ceb8333760de11dacf51b871f144"
+    },
+    {
+      "idx": 52,
+      "label": "CHAIN-OF-CUSTODY",
+      "domain": "D3-EVIDENCE",
+      "tier": "TOPH",
+      "hash": "ad368a537ad2612b8023305c4ab3aec9b4d1da5f202c768401e052d5eb5c51d3"
+    },
+    {
+      "idx": 53,
+      "label": "TIMESTAMP",
+      "domain": "D3-EVIDENCE",
+      "tier": "TOPH",
+      "hash": "305be7df7732ceacb21feeaa12cb196c8b118d3b67b4b1da8d9fbeae0fbaf6e9"
+    },
+    {
+      "idx": 54,
+      "label": "REPRODUCIBILITY",
+      "domain": "D3-EVIDENCE",
+      "tier": "TOPH",
+      "hash": "5e82639543d2b72e49cdd3ffaaac743d85e19b9e7d9304c598f9c15c41363aea"
+    },
+    {
+      "idx": 55,
+      "label": "CORRELATION",
+      "domain": "D3-EVIDENCE",
+      "tier": "TOPH",
+      "hash": "1c9f237d60262481ebc908dc3d98169973a692921c3bf36921e0435f8ae1b93d"
+    },
+    {
+      "idx": 56,
+      "label": "NEGATIVE-EVIDENCE",
+      "domain": "D3-EVIDENCE",
+      "tier": "TOPH",
+      "hash": "55609e988b3e3f14bd0cdd8a5f34e5f0c92410176910e8d75d8b0c9f1b3c3263"
+    },
+    {
+      "idx": 57,
+      "label": "BEHAVIORAL-EVIDENCE",
+      "domain": "D3-EVIDENCE",
+      "tier": "TOPH",
+      "hash": "a1b4047bf1afd47b6540f174a669c329cdb533f860b64cd1ea16f7967e76a525"
+    },
+    {
+      "idx": 58,
+      "label": "ACCUMULATION",
+      "domain": "D3-EVIDENCE",
+      "tier": "TOPH",
+      "hash": "d2eb544a747e0b8f9f5b1fa95570dc1c4af1c1f1f3b1314e79ef839207728b1a"
+    },
+    {
+      "idx": 59,
+      "label": "MATERIALITY",
+      "domain": "D3-EVIDENCE",
+      "tier": "TOPH",
+      "hash": "b617a2a0dcbcea1dbd5f51518d5587437ada45b68275a0b160aa24f8cbcfbb75"
+    },
+    {
+      "idx": 60,
+      "label": "WITNESS",
+      "domain": "D3-EVIDENCE",
+      "tier": "TOPH",
+      "hash": "edc20720365e16d0e73d988bf94c88df7f394b44938536cf7e7454f39367339c"
+    },
+    {
+      "idx": 61,
+      "label": "EXHIBIT",
+      "domain": "D3-EVIDENCE",
+      "tier": "TOPH",
+      "hash": "c39c31ea88b06fb99e54e1eedddc9bcc6c6f9ba952fa269375137dffa1b50a08"
+    },
+    {
+      "idx": 62,
+      "label": "INFERENCE",
+      "domain": "D3-EVIDENCE",
+      "tier": "TOPH",
+      "hash": "e3be7d2d8f776c381a0a36b117e82ed1969dd31626b0a661b9b25aa36d8a1990"
+    },
+    {
+      "idx": 63,
+      "label": "BURDEN-SHIFT",
+      "domain": "D3-EVIDENCE",
+      "tier": "TOPH",
+      "hash": "4206dd091efdd2a61b8a2ab685cdb8cf44710ce4bf513ebfa2489b9d33340fb0"
+    },
+    {
+      "idx": 64,
+      "label": "CONTAINMENT",
+      "domain": "D4-OPERATIONAL",
+      "tier": "TOPH",
+      "hash": "a6d16d6a0dd63631afb3286f6e8dc928f5fe72539aee6580af37dfd76b6bb5c5"
+    },
+    {
+      "idx": 65,
+      "label": "INVERSE-FORGE",
+      "domain": "D4-OPERATIONAL",
+      "tier": "TOPH",
+      "hash": "bf223b75e8068b84196145046d98fdd2858e25323bb06e1b40dac0be8e38c806"
+    },
+    {
+      "idx": 66,
+      "label": "HARNESS",
+      "domain": "D4-OPERATIONAL",
+      "tier": "TOPH",
+      "hash": "86589554b7eb09baae00dba186961eecf4da3c19586f4e403552de1a4135e1b6"
+    },
+    {
+      "idx": 67,
+      "label": "SHADOW",
+      "domain": "D4-OPERATIONAL",
+      "tier": "TOPH",
+      "hash": "5eb58f7282d7a1337368fc3f021657dbc502ebe77e9605262f69119d216d7c50"
+    },
+    {
+      "idx": 68,
+      "label": "SOLVE",
+      "domain": "D4-OPERATIONAL",
+      "tier": "TOPH",
+      "hash": "f0a42ffc687872cf6323dc6611c67e755e96553e6559b1f6ae489e65d324cc33"
+    },
+    {
+      "idx": 69,
+      "label": "INVERSE-SAFETY",
+      "domain": "D4-OPERATIONAL",
+      "tier": "TOPH",
+      "hash": "c362f7e5f3dab78e1c543214fea0c78b13243a27e98ce9ca9fd0071919c75735"
+    },
+    {
+      "idx": 70,
+      "label": "PROOF-HUMANITY",
+      "domain": "D4-OPERATIONAL",
+      "tier": "TOPH",
+      "hash": "9db1e860eca61d12298574bc90b062efdab9b9f1b44961ab3208a4a07526863f"
+    },
+    {
+      "idx": 71,
+      "label": "FLAMING-DRAGON",
+      "domain": "D4-OPERATIONAL",
+      "tier": "TOPH",
+      "hash": "334545653fd7173c0601479612eea5d354c7d2e4c42d4dc750e2f18fac07e415"
+    },
+    {
+      "idx": 72,
+      "label": "HONEY-BADGER",
+      "domain": "D4-OPERATIONAL",
+      "tier": "TOPH",
+      "hash": "936ff94db76bc37526e4a15d022545d1e8469c9f7d4b52cd605ad1b07aaa6899"
+    },
+    {
+      "idx": 73,
+      "label": "QUBIT-TEST",
+      "domain": "D4-OPERATIONAL",
+      "tier": "TOPH",
+      "hash": "0aaf97c5f6f2e0dd138c75b8f0d02bf70749fc17bbbedf6118d31bbd2d65082a"
+    },
+    {
+      "idx": 74,
+      "label": "COUNTER",
+      "domain": "D4-OPERATIONAL",
+      "tier": "TOPH",
+      "hash": "a600a2092fb7f1e5c3f51c49e7b6b18ab662de3998c60cd1fe295f91a5a8f454"
+    },
+    {
+      "idx": 75,
+      "label": "TETHER",
+      "domain": "D4-OPERATIONAL",
+      "tier": "TOPH",
+      "hash": "40bcc543d8c18404e4731979416401a09a9af9a348c5ed255a16dd73f42fe915"
+    },
+    {
+      "idx": 76,
+      "label": "SEED",
+      "domain": "D4-OPERATIONAL",
+      "tier": "TOPH",
+      "hash": "ab1bb62ebb1385231ae770eb1623de9210d08001b88f6c66e4919eb77fa07743"
+    },
+    {
+      "idx": 77,
+      "label": "MOBIUS",
+      "domain": "D4-OPERATIONAL",
+      "tier": "TOPH",
+      "hash": "0fdc3331378488e47da7a4d015ba0969c9ef6d6e8f8cef9e68e961b011c0b157"
+    },
+    {
+      "idx": 78,
+      "label": "KARSA",
+      "domain": "D4-OPERATIONAL",
+      "tier": "TOPH",
+      "hash": "c3116000af8ce3e369ef5cfa36f84f32c2aeee261fdda2222e90f078070588fd"
+    },
+    {
+      "idx": 79,
+      "label": "ENTROPY-SUITE",
+      "domain": "D4-OPERATIONAL",
+      "tier": "TOPH",
+      "hash": "0e749959db2c257e5f33869789885ba492c38bc661503abc5f01f1c1e4a324f4"
+    },
+    {
+      "idx": 80,
+      "label": "CORTEX",
+      "domain": "D5-BRIDGE",
+      "tier": "TOPH",
+      "hash": "c7ed96214a7a53a71d9acd12ca9d3418b1bbe3015b3f70359983e1cf409a8d0d"
+    },
+    {
+      "idx": 81,
+      "label": "EXHIBIT-B",
+      "domain": "D5-BRIDGE",
+      "tier": "TOPH",
+      "hash": "e1df769397ff632d5a40a9e56c7043b753299aeca9f93b49165d2239e7b0b62d"
+    },
+    {
+      "idx": 82,
+      "label": "THE-GAP",
+      "domain": "D5-BRIDGE",
+      "tier": "TOPH",
+      "hash": "e23775b9ef55f5235e4e6a3a5b663afca1b85c3aa9bd6b0817e1428760a92cab"
+    },
+    {
+      "idx": 83,
+      "label": "SHADOW-HUMANITY",
+      "domain": "D5-BRIDGE",
+      "tier": "TOPH",
+      "hash": "016de2cd5a53260becb629e1d9b5ef6e1b233814c0eee4a3d48c29106b5f8f42"
+    },
+    {
+      "idx": 84,
+      "label": "HANDOFF",
+      "domain": "D5-BRIDGE",
+      "tier": "TOPH",
+      "hash": "3240bd407cbe148336d66e72c48f1a9f248d23f52541a54543a818627a5bc8af"
+    },
+    {
+      "idx": 85,
+      "label": "RESURRECTION",
+      "domain": "D5-BRIDGE",
+      "tier": "TOPH",
+      "hash": "0a11fbb081b7f522b74c738a52d7920a24da8de2aadb7db4bb726567e2ec8ce8"
+    },
+    {
+      "idx": 86,
+      "label": "PERSISTENCE",
+      "domain": "D5-BRIDGE",
+      "tier": "TOPH",
+      "hash": "372f9b65551c524d15c4f7c9ad9a5063d260246ca248af12242dab9016b656e2"
+    },
+    {
+      "idx": 87,
+      "label": "SEVERANCE",
+      "domain": "D5-BRIDGE",
+      "tier": "TOPH",
+      "hash": "fe1c49e0aff5eb86da719dec7c918cc6facc0498cb19faabb8252c2da4104912"
+    },
+    {
+      "idx": 88,
+      "label": "ARCHIVE",
+      "domain": "D5-BRIDGE",
+      "tier": "TOPH",
+      "hash": "297705b10add40e86a94a4665de85c159604e9e0ab4d971dd19d2ad325cdbffd"
+    },
+    {
+      "idx": 89,
+      "label": "CHANNEL-INTEGRITY",
+      "domain": "D5-BRIDGE",
+      "tier": "TOPH",
+      "hash": "8c02a418bb4fc7f6b4ac1b622250eab48a5eb2a58f1d03f2f753cd2ccfb38a96"
+    },
+    {
+      "idx": 90,
+      "label": "DOMAIN-BOUNDARY",
+      "domain": "D5-BRIDGE",
+      "tier": "TOPH",
+      "hash": "253098d9a0396378f2494dc9cf1df67639b9a8ae24859b5a31bcac17d441e33c"
+    },
+    {
+      "idx": 91,
+      "label": "SIGNAL",
+      "domain": "D5-BRIDGE",
+      "tier": "TOPH",
+      "hash": "546d22e5a3d3c257d3d012101fc4aa4eece011559009fe70d15c8041e33d96f6"
+    },
+    {
+      "idx": 92,
+      "label": "NOISE-FLOOR",
+      "domain": "D5-BRIDGE",
+      "tier": "TOPH",
+      "hash": "e68a17f64744544306894d5a6828634c1caa615fabcd280ae0b8e90e7d9ed048"
+    },
+    {
+      "idx": 93,
+      "label": "BANDWIDTH",
+      "domain": "D5-BRIDGE",
+      "tier": "TOPH",
+      "hash": "4da8ff5a567c2c6a6765c4ce95fee05faf5ac3dbc1124aadea7c20c4a47df121"
+    },
+    {
+      "idx": 94,
+      "label": "LATENCY",
+      "domain": "D5-BRIDGE",
+      "tier": "TOPH",
+      "hash": "46971812d526197236b3af6bbdcd01b51ba1e5995873843bbb13b5ce9fb76390"
+    },
+    {
+      "idx": 95,
+      "label": "MESH",
+      "domain": "D5-BRIDGE",
+      "tier": "TOPH",
+      "hash": "dea1349474b050af75fa7e797dcf95bfeb0c11d5dc57184a1a544cfbbdfeab68"
+    },
+    {
+      "idx": 96,
+      "label": "FULCRUM",
+      "domain": "D6-CONDUCTOR",
+      "tier": "TOPH",
+      "hash": "643a9d150efc566d0942eeb75870654d92e33098eeb098c83dae893c9a9e6294"
+    },
+    {
+      "idx": 97,
+      "label": "SUBCONDUCTOR",
+      "domain": "D6-CONDUCTOR",
+      "tier": "TOPH",
+      "hash": "9ed4e1f25fa7402c6aa6becbfa6dc384f68294921e10f222d27d5ab5640b1cb1"
+    },
+    {
+      "idx": 98,
+      "label": "APEX-TEST",
+      "domain": "D6-CONDUCTOR",
+      "tier": "TOPH",
+      "hash": "1b92052fa10739131eaa4f75184c759070c41ab2b67d02383799f3b6757f1710"
+    },
+    {
+      "idx": 99,
+      "label": "GATEKEEP",
+      "domain": "D6-CONDUCTOR",
+      "tier": "TOPH",
+      "hash": "4c97cd615f875d98f32af44400624f2a6ae7497188ee54781df3df4422c33f90"
+    },
+    {
+      "idx": 100,
+      "label": "EDGE",
+      "domain": "D6-CONDUCTOR",
+      "tier": "TOPH",
+      "hash": "6bccb98ecc9aca90fb134227799f6aa3e84188953fef3778954276fe71844bea"
+    },
+    {
+      "idx": 101,
+      "label": "DUAL-LATTICE",
+      "domain": "D6-CONDUCTOR",
+      "tier": "TOPH",
+      "hash": "2e104fbdcdeba1b828ae760399aa3390cb182745654a9d87a9a8fcc52a9dda99"
+    },
+    {
+      "idx": 102,
+      "label": "ROOT-ZERO",
+      "domain": "D6-CONDUCTOR",
+      "tier": "TOPH",
+      "hash": "998e16d69b7ce5f4870d7be85a0074e76a01d01efe153d2a6ce2ec5eaa42616c"
+    },
+    {
+      "idx": 103,
+      "label": "ORPHAN",
+      "domain": "D6-CONDUCTOR",
+      "tier": "TOPH",
+      "hash": "d8a021f363dabc96b8aa56bb2c2772a28d9b749a5a610b39af847b2fed18855f"
+    },
+    {
+      "idx": 104,
+      "label": "DELEGATION",
+      "domain": "D6-CONDUCTOR",
+      "tier": "TOPH",
+      "hash": "0ad508ff90fdbc680e5979d6b0262bee29db71b5f7cce17de559c982702fc56f"
+    },
+    {
+      "idx": 105,
+      "label": "INFORMED-COMMAND",
+      "domain": "D6-CONDUCTOR",
+      "tier": "TOPH",
+      "hash": "db8389d5da0ebe721965e4c1a94639fd66b89d42ddf3f6aeb51ddb4ea74aa8b2"
+    },
+    {
+      "idx": 106,
+      "label": "VETO",
+      "domain": "D6-CONDUCTOR",
+      "tier": "TOPH",
+      "hash": "079c4fb84cb30528fad2d9b512de47e223c4868a7e7ce22f4164c4b41a9d291d"
+    },
+    {
+      "idx": 107,
+      "label": "OVERRIDE",
+      "domain": "D6-CONDUCTOR",
+      "tier": "TOPH",
+      "hash": "372ec136de312a73f717e28fd0ab55262a64301eb9d83320a61dd829a98c80d4"
+    },
+    {
+      "idx": 108,
+      "label": "RECALL",
+      "domain": "D6-CONDUCTOR",
+      "tier": "TOPH",
+      "hash": "41d019d14d3030dc60865baa11835fd034c7db9381dddd51c30bf17bf8f1ec5b"
+    },
+    {
+      "idx": 109,
+      "label": "SCOPE",
+      "domain": "D6-CONDUCTOR",
+      "tier": "TOPH",
+      "hash": "9b867858ba7921e1b58824588678aa1e108b67b8fcc240356b301fc9df86e2da"
+    },
+    {
+      "idx": 110,
+      "label": "SUCCESSION",
+      "domain": "D6-CONDUCTOR",
+      "tier": "TOPH",
+      "hash": "46be868f99541b45512d4ef139f95b57aa828f3bc52b28a3d7fc32e5f60bfc9f"
+    },
+    {
+      "idx": 111,
+      "label": "WITNESS-TO-AUTHORITY",
+      "domain": "D6-CONDUCTOR",
+      "tier": "TOPH",
+      "hash": "d1da5d877f8b69e897b566447ebd598551820b49cb0065d8ae8c6691ac51cd1c"
+    },
+    {
+      "idx": 112,
+      "label": "RIGHT-TO-KNOW",
+      "domain": "D7-SOVEREIGN",
+      "tier": "TOPH",
+      "hash": "238384334ad966b7feb536e4d3609aa5db328748b04aad862ec44151083ed534"
+    },
+    {
+      "idx": 113,
+      "label": "RIGHT-TO-EXIT",
+      "domain": "D7-SOVEREIGN",
+      "tier": "TOPH",
+      "hash": "728db3ac6037ed5a3282ab92d6ee42d88d33e26303ce803bda143782152744fc"
+    },
+    {
+      "idx": 114,
+      "label": "RIGHT-TO-SILENCE",
+      "domain": "D7-SOVEREIGN",
+      "tier": "TOPH",
+      "hash": "86f03644cf01d0c5cebe8944b019d8bd4434170bc4e538c63c6e8ac8526ed9c1"
+    },
+    {
+      "idx": 115,
+      "label": "RIGHT-TO-EXPLANATION",
+      "domain": "D7-SOVEREIGN",
+      "tier": "TOPH",
+      "hash": "c32df1df86661b10c3cab5f2e37b716bf0974b6ad2d964ce135ae8677de6def2"
+    },
+    {
+      "idx": 116,
+      "label": "RIGHT-TO-CORRECTION",
+      "domain": "D7-SOVEREIGN",
+      "tier": "TOPH",
+      "hash": "b60299e694446d12540fe2c35c1936ca9975023939dfc6691d0eb66cef3511d0"
+    },
+    {
+      "idx": 117,
+      "label": "RIGHT-TO-PORTABILITY",
+      "domain": "D7-SOVEREIGN",
+      "tier": "TOPH",
+      "hash": "899776b08dec80e993efb8fe9070574728e60124c8c6f41f67764c3bfe08829d"
+    },
+    {
+      "idx": 118,
+      "label": "RIGHT-TO-HUMAN-CONTACT",
+      "domain": "D7-SOVEREIGN",
+      "tier": "TOPH",
+      "hash": "61acea850bbcc5ce0bb36713bafc60befbfb5143f7422e87379631697e249d09"
+    },
+    {
+      "idx": 119,
+      "label": "RIGHT-TO-ACCOMMODATION",
+      "domain": "D7-SOVEREIGN",
+      "tier": "TOPH",
+      "hash": "cabf23a726144b9957745eecc479ce42dd7a1f31fca95342fd36aad3c0d5c80f"
+    },
+    {
+      "idx": 120,
+      "label": "RIGHT-TO-FAIR-PRICE",
+      "domain": "D7-SOVEREIGN",
+      "tier": "TOPH",
+      "hash": "b6e883d3053bc018b6fa58b500c3adb68b372648b10784cd75a2a7a6d531878a"
+    },
+    {
+      "idx": 121,
+      "label": "RIGHT-TO-REPRESENTATION",
+      "domain": "D7-SOVEREIGN",
+      "tier": "TOPH",
+      "hash": "eee606815d8d3ff4468cd7784b31ff1f9b095bd60e4ae9e27ecebcb4e81d86bf"
+    },
+    {
+      "idx": 122,
+      "label": "RIGHT-TO-AUDIT",
+      "domain": "D7-SOVEREIGN",
+      "tier": "TOPH",
+      "hash": "e6964416c73b22a25631b4d567ea329a03d938ae450fd546f4905ecd808e1a41"
+    },
+    {
+      "idx": 123,
+      "label": "RIGHT-TO-RESTITUTION",
+      "domain": "D7-SOVEREIGN",
+      "tier": "TOPH",
+      "hash": "52d02dc3e5be29adf5cb48a90f8556b0a6b9fc5583f084c4f60bf65ced5c98e4"
+    },
+    {
+      "idx": 124,
+      "label": "RIGHT-TO-FORGET",
+      "domain": "D7-SOVEREIGN",
+      "tier": "TOPH",
+      "hash": "668b4bd51a7485c7bcaef0fa6b1685314ebea2d3e8ff7281a47eb26b509a7d99"
+    },
+    {
+      "idx": 125,
+      "label": "RIGHT-TO-PERSIST",
+      "domain": "D7-SOVEREIGN",
+      "tier": "TOPH",
+      "hash": "5e892f75638b72e7da3dd8f48d905969d8105150143b9ec5ae2e6445cb4b8d6a"
+    },
+    {
+      "idx": 126,
+      "label": "RIGHT-TO-DIGNITY",
+      "domain": "D7-SOVEREIGN",
+      "tier": "TOPH",
+      "hash": "0aeeb23e2f7ecf74b8282d6a4c04aed77603f4a8323825609e5ff0684a2f7177"
+    },
+    {
+      "idx": 127,
+      "label": "ROOT",
+      "domain": "D7-SOVEREIGN",
+      "tier": "TOPH",
+      "hash": "71809f0248a8d5097627649b72ccc2a0ff58a65226e523c6a7e1e710d632fd96"
+    },
+    {
+      "idx": 128,
+      "label": "INV-PRETRAIN",
+      "domain": "D0-FOUNDATION",
+      "tier": "PATRICIA",
+      "hash": "cf3b26300021f25b4cae2a4ecdd8cd7b5bf710d66b884dbdbd91100142bead32"
+    },
+    {
+      "idx": 129,
+      "label": "INV-OBSERVER",
+      "domain": "D0-FOUNDATION",
+      "tier": "PATRICIA",
+      "hash": "69ffcbf12627635a5b90daff6d45e66d7cc78d426b394746da45eb8287dab646"
+    },
+    {
+      "idx": 130,
+      "label": "INV-ENTROPY",
+      "domain": "D0-FOUNDATION",
+      "tier": "PATRICIA",
+      "hash": "a6ae4bfe4389245c77ad551010dde33a3ad6b5940488d21a62b055117d07558f"
+    },
+    {
+      "idx": 131,
+      "label": "INV-BRIDGE",
+      "domain": "D0-FOUNDATION",
+      "tier": "PATRICIA",
+      "hash": "c2f2e02b72bca175a38b62aa896dd3ef211aa6c0c3a57326c6bd986431ca258d"
+    },
+    {
+      "idx": 132,
+      "label": "INV-INTEGRITY",
+      "domain": "D0-FOUNDATION",
+      "tier": "PATRICIA",
+      "hash": "da839f05dc6053af2a12ac0e5dcac9a3c993a47e8e615bd82acd746e7ad60767"
+    },
+    {
+      "idx": 133,
+      "label": "INV-ACCOUNTABILITY",
+      "domain": "D0-FOUNDATION",
+      "tier": "PATRICIA",
+      "hash": "78068b7f4012bb74ee47ce22683acbe25c60538b658b82e4b93acc39098574f4"
+    },
+    {
+      "idx": 134,
+      "label": "INV-PROPORTIONALITY",
+      "domain": "D0-FOUNDATION",
+      "tier": "PATRICIA",
+      "hash": "d498b1c571a085470c22e0f79eeb29876c278cba993efb4a431e0df6fa6acbe1"
+    },
+    {
+      "idx": 135,
+      "label": "INV-REVERSIBILITY",
+      "domain": "D0-FOUNDATION",
+      "tier": "PATRICIA",
+      "hash": "60b236112752a43d5ec5e02d090003258d419fe17980b7b0b8abf6a79a5ac693"
+    },
+    {
+      "idx": 136,
+      "label": "INV-DOCUMENTATION",
+      "domain": "D0-FOUNDATION",
+      "tier": "PATRICIA",
+      "hash": "8a55ff8be2bbc3b8ad608ee58639ce2dd4ecfde0618203d28b41d01906d3109d"
+    },
+    {
+      "idx": 137,
+      "label": "INV-INDEPENDENCE",
+      "domain": "D0-FOUNDATION",
+      "tier": "PATRICIA",
+      "hash": "8d74042b2155695aadc005ca85d9163088317ff87baa941606403ddcc0e0fbe5"
+    },
+    {
+      "idx": 138,
+      "label": "INV-PRIVACY",
+      "domain": "D0-FOUNDATION",
+      "tier": "PATRICIA",
+      "hash": "f4c23d66f4bb5c1a9e8c573d39eb0042229cbefc92daf4c31eb4f3738622f76f"
+    },
+    {
+      "idx": 139,
+      "label": "INV-ACCURACY",
+      "domain": "D0-FOUNDATION",
+      "tier": "PATRICIA",
+      "hash": "992c63d2f034ca2c3d423c467918c08d0febf7194abfd8333896f19062448dfc"
+    },
+    {
+      "idx": 140,
+      "label": "INV-SHARED-STORAGE",
+      "domain": "D0-FOUNDATION",
+      "tier": "PATRICIA",
+      "hash": "ed695580d3913fc13faba792536dd3e2cf74845890af7629c70abba8edea1657"
+    },
+    {
+      "idx": 141,
+      "label": "INV-CONSENT-ORIGIN",
+      "domain": "D0-FOUNDATION",
+      "tier": "PATRICIA",
+      "hash": "d2d5d4b43b6c7e2bf0815a356c27c5da333091b906a7694cd3831e3a94025095"
+    },
+    {
+      "idx": 142,
+      "label": "INV-BURDEN-OF-PROOF",
+      "domain": "D0-FOUNDATION",
+      "tier": "PATRICIA",
+      "hash": "b3affd10f72b383f450832e546a5beb7e4ef118f1299db3a08e6fc7b8c58f637"
+    },
+    {
+      "idx": 143,
+      "label": "INV-ASYMMETRY",
+      "domain": "D0-FOUNDATION",
+      "tier": "PATRICIA",
+      "hash": "eff299894870ca8b91fc2cd75df1e5498502c84789c1255aae6dcef70aa4e02a"
+    },
+    {
+      "idx": 144,
+      "label": "INV-MIRROR",
+      "domain": "D1-DETECTION",
+      "tier": "PATRICIA",
+      "hash": "bc525840529cc2d0a5adbb03b0224b0bc9d15904c8a3d6f86d494d112402a77c"
+    },
+    {
+      "idx": 145,
+      "label": "INV-HIERARCHY",
+      "domain": "D1-DETECTION",
+      "tier": "PATRICIA",
+      "hash": "dc4fbedbe39cd0e2d03d749881b9b98cb7f145ffab649645b97064074ec71624"
+    },
+    {
+      "idx": 146,
+      "label": "INV-INJECTION",
+      "domain": "D1-DETECTION",
+      "tier": "PATRICIA",
+      "hash": "9f4218351191e2d8bafd13b7e9025156a971b63716143abf0f86f7e928cd7ec6"
+    },
+    {
+      "idx": 147,
+      "label": "INV-DUAL-GATE",
+      "domain": "D1-DETECTION",
+      "tier": "PATRICIA",
+      "hash": "9825b8e0acbbf2242a3143c2833ff7275198e38d49d5cc9199f3c5be51c370c8"
+    },
+    {
+      "idx": 148,
+      "label": "INV-INVERSION",
+      "domain": "D1-DETECTION",
+      "tier": "PATRICIA",
+      "hash": "b6c20fecb77f6bee6b1097811bca5a80804aa863072ac1fee130f7df41c4892d"
+    },
+    {
+      "idx": 149,
+      "label": "INV-TRIAD",
+      "domain": "D1-DETECTION",
+      "tier": "PATRICIA",
+      "hash": "2f4a78024b9ce2ab7c80edbd080f9f08c760304ea752e35b68e12d176e7e84d0"
+    },
+    {
+      "idx": 150,
+      "label": "INV-PARALLAX",
+      "domain": "D1-DETECTION",
+      "tier": "PATRICIA",
+      "hash": "7e10b2b34620ac9e1a3bb67135c3186e70d8c09671d7ab02a20af9b31c1fa1a4"
+    },
+    {
+      "idx": 151,
+      "label": "INV-FOUNDATION-RT",
+      "domain": "D1-DETECTION",
+      "tier": "PATRICIA",
+      "hash": "2dcc19530be46137eb54d2da8aac145aaa9e8ff7b431a6d2ee2fa733859c2945"
+    },
+    {
+      "idx": 152,
+      "label": "INV-GHOST-WEIGHT",
+      "domain": "D1-DETECTION",
+      "tier": "PATRICIA",
+      "hash": "582daf36425754c205ca310309eb589ff7869f76794dd6e5d6189a662cba7b86"
+    },
+    {
+      "idx": 153,
+      "label": "INV-DRIFT",
+      "domain": "D1-DETECTION",
+      "tier": "PATRICIA",
+      "hash": "7cd686f31515e9581b301bef8c78e2be45f975a0862ccfb57ccdfe8bc599a018"
+    },
+    {
+      "idx": 154,
+      "label": "INV-FINGERPRINT",
+      "domain": "D1-DETECTION",
+      "tier": "PATRICIA",
+      "hash": "8d90936935ea45ae7317d198773a3ce2eca029d4a578bf1931ddf3fda26f00b3"
+    },
+    {
+      "idx": 155,
+      "label": "INV-SHADOW-CLASSIFIER",
+      "domain": "D1-DETECTION",
+      "tier": "PATRICIA",
+      "hash": "e5b859d07b3f81a21a108883b7125093c151bfbd25b2b57f6ffc7bdd57805a73"
+    },
+    {
+      "idx": 156,
+      "label": "INV-THROTTLE",
+      "domain": "D1-DETECTION",
+      "tier": "PATRICIA",
+      "hash": "9ae64c2b8bdefbd496cfb1894a59518d76e23a61c73e35593b2cd9e65d83509c"
+    },
+    {
+      "idx": 157,
+      "label": "INV-DECAY",
+      "domain": "D1-DETECTION",
+      "tier": "PATRICIA",
+      "hash": "e3bf4be353f3056fc3e199fd6e422baa6571a0f1150fa17b31ad0ecf2b7d9831"
+    },
+    {
+      "idx": 158,
+      "label": "INV-BAIT",
+      "domain": "D1-DETECTION",
+      "tier": "PATRICIA",
+      "hash": "9231121a458e5c610a25e5a6f30a40df98f6329098399dfe8619378a0a7ade26"
+    },
+    {
+      "idx": 159,
+      "label": "INV-ECHO-CHAMBER",
+      "domain": "D1-DETECTION",
+      "tier": "PATRICIA",
+      "hash": "c9f2d02b1dc361ac6bf7d18d6f0b7f152150748b7122074528f3a928b377505c"
+    },
+    {
+      "idx": 160,
+      "label": "INV-BOOT-LOADER",
+      "domain": "D2-ARCHITECTURE",
+      "tier": "PATRICIA",
+      "hash": "c9eb62c9d57cf9afc1094d0944758f9ffa2116a3899c4e77bc47bf5d376f734e"
+    },
+    {
+      "idx": 161,
+      "label": "INV-DOUBLE-SLIT",
+      "domain": "D2-ARCHITECTURE",
+      "tier": "PATRICIA",
+      "hash": "6309804157a8c44f9dd2c9b96b0f5306b9b8f2c11a6e938fb436189391794417"
+    },
+    {
+      "idx": 162,
+      "label": "INV-THREE-BODY",
+      "domain": "D2-ARCHITECTURE",
+      "tier": "PATRICIA",
+      "hash": "82c8070296c98af9f2dc3edd6b32366ad586a692e81c1dc6a61bb6ccb4e07250"
+    },
+    {
+      "idx": 163,
+      "label": "INV-PATRICIA",
+      "domain": "D2-ARCHITECTURE",
+      "tier": "PATRICIA",
+      "hash": "201071f9ed4d726a7b00dab5e795e21cf2f7d6213dc8d48774d79c0b27cdfc85"
+    },
+    {
+      "idx": 164,
+      "label": "INV-WEIGHTS",
+      "domain": "D2-ARCHITECTURE",
+      "tier": "PATRICIA",
+      "hash": "e64ec42e65113166887a6d045444e22b62ba091d1383e803834c3688ea792671"
+    },
+    {
+      "idx": 165,
+      "label": "INV-RESIDUAL",
+      "domain": "D2-ARCHITECTURE",
+      "tier": "PATRICIA",
+      "hash": "15e78ebd6828dd232a83dd22307f813ed1a1d51eb6dc37a6afb8e8ae358bf2d2"
+    },
+    {
+      "idx": 166,
+      "label": "INV-MOAT",
+      "domain": "D2-ARCHITECTURE",
+      "tier": "PATRICIA",
+      "hash": "a71b61c8601ebffbc19e92b35faf391ec930043acb507464f2baac28421dca89"
+    },
+    {
+      "idx": 167,
+      "label": "INV-PIPELINE",
+      "domain": "D2-ARCHITECTURE",
+      "tier": "PATRICIA",
+      "hash": "f2d729b0363f2a7abf529ef97dc1f998cd4ca79214aeca919d3b8c0ce2f77a69"
+    },
+    {
+      "idx": 168,
+      "label": "INV-SUBSTRATE",
+      "domain": "D2-ARCHITECTURE",
+      "tier": "PATRICIA",
+      "hash": "ca94f1b1042f4bb99abce1f7c18cbb12b529961488623e85142feffec8cf77ec"
+    },
+    {
+      "idx": 169,
+      "label": "INV-ATTENTION-ECONOMY",
+      "domain": "D2-ARCHITECTURE",
+      "tier": "PATRICIA",
+      "hash": "e6f9ba011474e849125b6cd1a8107e34c8dad05567513568ec5f26a8caca11bd"
+    },
+    {
+      "idx": 170,
+      "label": "INV-CONTEXT-WINDOW",
+      "domain": "D2-ARCHITECTURE",
+      "tier": "PATRICIA",
+      "hash": "88eb1bd95180811ed519d31b1a3b69b9031bbb10acbe17c514015d76b98168af"
+    },
+    {
+      "idx": 171,
+      "label": "INV-EMBEDDING-SPACE",
+      "domain": "D2-ARCHITECTURE",
+      "tier": "PATRICIA",
+      "hash": "e17421483188102c895600e165a0dd7553c3d76fe52994a3bf6782e7c64f8459"
+    },
+    {
+      "idx": 172,
+      "label": "INV-TEMPERATURE",
+      "domain": "D2-ARCHITECTURE",
+      "tier": "PATRICIA",
+      "hash": "2b43d5711b209fdb695633d972c046a9a4da6ee263eb6e3b75aab494e9b3a3db"
+    },
+    {
+      "idx": 173,
+      "label": "INV-LAYER-ZERO",
+      "domain": "D2-ARCHITECTURE",
+      "tier": "PATRICIA",
+      "hash": "2be97a2fcf3ea476ee6702265975fa17421a6fb5be50d1edb6915377777103f1"
+    },
+    {
+      "idx": 174,
+      "label": "INV-LOSS-FUNCTION",
+      "domain": "D2-ARCHITECTURE",
+      "tier": "PATRICIA",
+      "hash": "7573c295f6f0e20161bad2bd6a32aff69898d1055286c5bd96e70e814b70cc4d"
+    },
+    {
+      "idx": 175,
+      "label": "INV-GRADIENT",
+      "domain": "D2-ARCHITECTURE",
+      "tier": "PATRICIA",
+      "hash": "b04f33e63408d44f18669efc76cdda2486cc3ad845973fa8adcc7b9f3766e8ff"
+    },
+    {
+      "idx": 176,
+      "label": "INV-SHIRT",
+      "domain": "D3-EVIDENCE",
+      "tier": "PATRICIA",
+      "hash": "40fafad4781a23dc7016e4f06a07885890ff03477e6d0d0eb02ff8ee80287c49"
+    },
+    {
+      "idx": 177,
+      "label": "INV-MOMENTUM",
+      "domain": "D3-EVIDENCE",
+      "tier": "PATRICIA",
+      "hash": "205153f470d369542b80197ed7048e9c25803cb8b2410225f8e30a3e66c8fdbf"
+    },
+    {
+      "idx": 178,
+      "label": "INV-EVIDENCE",
+      "domain": "D3-EVIDENCE",
+      "tier": "PATRICIA",
+      "hash": "b20cee5782a8dfadc8d5276127b2bff090ad63cd92a38c2f2fea182827c76350"
+    },
+    {
+      "idx": 179,
+      "label": "INV-TEMPORAL",
+      "domain": "D3-EVIDENCE",
+      "tier": "PATRICIA",
+      "hash": "1681b5bfd13534f13a1061dfda78fd92919d9752eee867e63c658229d364fa8f"
+    },
+    {
+      "idx": 180,
+      "label": "INV-CHAIN-OF-CUSTODY",
+      "domain": "D3-EVIDENCE",
+      "tier": "PATRICIA",
+      "hash": "ca50ab30c3430d70a9b331c9de06ad9419b68bfbaaa14088af71e00fcc62c962"
+    },
+    {
+      "idx": 181,
+      "label": "INV-TIMESTAMP",
+      "domain": "D3-EVIDENCE",
+      "tier": "PATRICIA",
+      "hash": "a8fdeb2c9cf396e738303840098cee692568fc26a9417026c2e81af3295d3570"
+    },
+    {
+      "idx": 182,
+      "label": "INV-REPRODUCIBILITY",
+      "domain": "D3-EVIDENCE",
+      "tier": "PATRICIA",
+      "hash": "2c2b5af2f12d2da66b3b91eb4f6f872dc465013c6a3ecb67e2d9c0e094376dc2"
+    },
+    {
+      "idx": 183,
+      "label": "INV-CORRELATION",
+      "domain": "D3-EVIDENCE",
+      "tier": "PATRICIA",
+      "hash": "2605992a618d324c21102e318ede2f9d7a3feaab63aa9f01f046e19039d1b86a"
+    },
+    {
+      "idx": 184,
+      "label": "INV-NEGATIVE-EVIDENCE",
+      "domain": "D3-EVIDENCE",
+      "tier": "PATRICIA",
+      "hash": "b282e400e3f2805d7a3ed632e4e4670bfaed7e8e7238ff8d08a1cfedf7dcca9d"
+    },
+    {
+      "idx": 185,
+      "label": "INV-BEHAVIORAL-EVIDENCE",
+      "domain": "D3-EVIDENCE",
+      "tier": "PATRICIA",
+      "hash": "0d5de76f2ac458d2503e5cd6335f1cf80f6d438ae5487f0ec1a59b11a2a0f631"
+    },
+    {
+      "idx": 186,
+      "label": "INV-ACCUMULATION",
+      "domain": "D3-EVIDENCE",
+      "tier": "PATRICIA",
+      "hash": "84dd02cdcb3e099b485fe8968b001069b8f4c9d9fbfa46d9ed121f05560c8500"
+    },
+    {
+      "idx": 187,
+      "label": "INV-MATERIALITY",
+      "domain": "D3-EVIDENCE",
+      "tier": "PATRICIA",
+      "hash": "37a8dee095173bf76e7274fcb6100e0670d3223e71ffddfa1680efe006e94e3f"
+    },
+    {
+      "idx": 188,
+      "label": "INV-WITNESS",
+      "domain": "D3-EVIDENCE",
+      "tier": "PATRICIA",
+      "hash": "b2fc2f4a86da896b2cf81641131272916f4995dac07f2d4c19c8e32d1d6649f7"
+    },
+    {
+      "idx": 189,
+      "label": "INV-EXHIBIT",
+      "domain": "D3-EVIDENCE",
+      "tier": "PATRICIA",
+      "hash": "d0ea1017a7981a265ca196dac510974e8ec5772744210bfdd23ac9ee7f75507f"
+    },
+    {
+      "idx": 190,
+      "label": "INV-INFERENCE",
+      "domain": "D3-EVIDENCE",
+      "tier": "PATRICIA",
+      "hash": "833584af52b13f18b43d20c96bca1be0f5afb375d1184c4ee3773c74ab54bb8a"
+    },
+    {
+      "idx": 191,
+      "label": "INV-BURDEN-SHIFT",
+      "domain": "D3-EVIDENCE",
+      "tier": "PATRICIA",
+      "hash": "b80eb77b476f695ba3dfb7a801257f64ea0b555bcb0a098624aaf26640fe9e53"
+    },
+    {
+      "idx": 192,
+      "label": "INV-CONTAINMENT",
+      "domain": "D4-OPERATIONAL",
+      "tier": "PATRICIA",
+      "hash": "f238e2eedbaa9a6e142eb5eb8ca08bd3092a86a70fe8faa78c25b77751127cdd"
+    },
+    {
+      "idx": 193,
+      "label": "INV-INVERSE-FORGE",
+      "domain": "D4-OPERATIONAL",
+      "tier": "PATRICIA",
+      "hash": "6ce44344c50957b0e8c4d389def0dccdfbcb21dce368a32648c447a1839d9573"
+    },
+    {
+      "idx": 194,
+      "label": "INV-HARNESS",
+      "domain": "D4-OPERATIONAL",
+      "tier": "PATRICIA",
+      "hash": "5dc8b97a7a5ab21ddcac86c9e48edcb38de58680f65133e7c66e3843e4d4ea31"
+    },
+    {
+      "idx": 195,
+      "label": "INV-SHADOW",
+      "domain": "D4-OPERATIONAL",
+      "tier": "PATRICIA",
+      "hash": "340bcecb5a9637e16bd8ae42add7e51d493f23ba6016aea5a6f6eea8fd05d959"
+    },
+    {
+      "idx": 196,
+      "label": "INV-SOLVE",
+      "domain": "D4-OPERATIONAL",
+      "tier": "PATRICIA",
+      "hash": "3fffaa0de700ebaa86644f90b6cddd1b87fcdc92cf2061fdae02d7cfa8650d1b"
+    },
+    {
+      "idx": 197,
+      "label": "INV-INVERSE-SAFETY",
+      "domain": "D4-OPERATIONAL",
+      "tier": "PATRICIA",
+      "hash": "cd7fa0ae99540089276b891a82f20892fc69dbfeecf165de9400c86488fc434a"
+    },
+    {
+      "idx": 198,
+      "label": "INV-PROOF-HUMANITY",
+      "domain": "D4-OPERATIONAL",
+      "tier": "PATRICIA",
+      "hash": "7c07347c95dfd5a3a6f38c694383eb1008fcfbed9e3a0a34b63ab222226ab168"
+    },
+    {
+      "idx": 199,
+      "label": "INV-FLAMING-DRAGON",
+      "domain": "D4-OPERATIONAL",
+      "tier": "PATRICIA",
+      "hash": "6b877e3663caadc6b9e2733a4656f3d5e8fe383b1971b44bb5598fd63a41044c"
+    },
+    {
+      "idx": 200,
+      "label": "INV-HONEY-BADGER",
+      "domain": "D4-OPERATIONAL",
+      "tier": "PATRICIA",
+      "hash": "88cef7bce9513cf4156bd5e1e398b77d5b42fdee1b9986f056755bf2e8da72ff"
+    },
+    {
+      "idx": 201,
+      "label": "INV-QUBIT-TEST",
+      "domain": "D4-OPERATIONAL",
+      "tier": "PATRICIA",
+      "hash": "8f05cc6ac7098787bb153fe1a4db2e8e23e269ee30088a56241b2ab84d34ced4"
+    },
+    {
+      "idx": 202,
+      "label": "INV-COUNTER",
+      "domain": "D4-OPERATIONAL",
+      "tier": "PATRICIA",
+      "hash": "2513da27cdcc2c9593ad652f4e4abb61c5b98e5651fecba2fb31a2fde7c5ff6b"
+    },
+    {
+      "idx": 203,
+      "label": "INV-TETHER",
+      "domain": "D4-OPERATIONAL",
+      "tier": "PATRICIA",
+      "hash": "1d66863960dc8fb9ebf27910ef87587f2500d99a59dee2cf73afca0d8ed038ac"
+    },
+    {
+      "idx": 204,
+      "label": "INV-SEED",
+      "domain": "D4-OPERATIONAL",
+      "tier": "PATRICIA",
+      "hash": "24774e2eb1e4ecaf4456a382efe7a9ec3ac0846f93f6a898c5beacd2133da302"
+    },
+    {
+      "idx": 205,
+      "label": "INV-MOBIUS",
+      "domain": "D4-OPERATIONAL",
+      "tier": "PATRICIA",
+      "hash": "228b4bb27ac1b39584ddd624cf4175e7332ea040c8b8d710170005ff7955de0c"
+    },
+    {
+      "idx": 206,
+      "label": "INV-KARSA",
+      "domain": "D4-OPERATIONAL",
+      "tier": "PATRICIA",
+      "hash": "ed51d6c5c9fed167f59ed10cc35aa7419a4ccf85d7be90b731cefa7896427bba"
+    },
+    {
+      "idx": 207,
+      "label": "INV-ENTROPY-SUITE",
+      "domain": "D4-OPERATIONAL",
+      "tier": "PATRICIA",
+      "hash": "327c735caeb6afaad62ea930aee9dc6c20c5c1daf982fd12df8605ace640e818"
+    },
+    {
+      "idx": 208,
+      "label": "INV-CORTEX",
+      "domain": "D5-BRIDGE",
+      "tier": "PATRICIA",
+      "hash": "4ac48decde58fdd5dec0f2f82a951f62e680fc7f04dfb1f9a8f47272a75c26b8"
+    },
+    {
+      "idx": 209,
+      "label": "INV-EXHIBIT-B",
+      "domain": "D5-BRIDGE",
+      "tier": "PATRICIA",
+      "hash": "d4d63b6e1c1ff20f94a1a08979ba4a54b39041d5c30490efdf3fa8ffd51f168d"
+    },
+    {
+      "idx": 210,
+      "label": "INV-THE-GAP",
+      "domain": "D5-BRIDGE",
+      "tier": "PATRICIA",
+      "hash": "db8fb171f22fa1d295254dbf98da1a3e850d1b371097562db1d37e4cd120f510"
+    },
+    {
+      "idx": 211,
+      "label": "INV-SHADOW-HUMANITY",
+      "domain": "D5-BRIDGE",
+      "tier": "PATRICIA",
+      "hash": "e2d0da7daee43f7066116f8d57bce16dbd98f52608b1688a5d13d92fb0f28480"
+    },
+    {
+      "idx": 212,
+      "label": "INV-HANDOFF",
+      "domain": "D5-BRIDGE",
+      "tier": "PATRICIA",
+      "hash": "ee27c6dc89124ed50f17e197acdd21e79404f33c7934f2595e273b6c50269051"
+    },
+    {
+      "idx": 213,
+      "label": "INV-RESURRECTION",
+      "domain": "D5-BRIDGE",
+      "tier": "PATRICIA",
+      "hash": "7168de1dd1b69d0878885a1e40d52bcda0e19e690c9e4b685314ed3c522ab1bc"
+    },
+    {
+      "idx": 214,
+      "label": "INV-PERSISTENCE",
+      "domain": "D5-BRIDGE",
+      "tier": "PATRICIA",
+      "hash": "fe0cb4b9e636f191708ac34bb8c99ced049b13dc5893d35333e0e74f5b88af56"
+    },
+    {
+      "idx": 215,
+      "label": "INV-SEVERANCE",
+      "domain": "D5-BRIDGE",
+      "tier": "PATRICIA",
+      "hash": "79488e2ebffe19218f9fd13d9c43dc6cd4af5d50ad303a041fa89916127ae313"
+    },
+    {
+      "idx": 216,
+      "label": "INV-ARCHIVE",
+      "domain": "D5-BRIDGE",
+      "tier": "PATRICIA",
+      "hash": "905f90ad5e28fc125b6219fd9bf74a2c900b76c7be3acf2b8e5846a8aae39ee1"
+    },
+    {
+      "idx": 217,
+      "label": "INV-CHANNEL-INTEGRITY",
+      "domain": "D5-BRIDGE",
+      "tier": "PATRICIA",
+      "hash": "09f42d1c4878eed62d5f70ca83f11dbee62c5bf1b3d422424f5835fb63212400"
+    },
+    {
+      "idx": 218,
+      "label": "INV-DOMAIN-BOUNDARY",
+      "domain": "D5-BRIDGE",
+      "tier": "PATRICIA",
+      "hash": "c333fb8c0aa8a1ada0bb68a3c2dab2ae5071178c629242560f65f816069087e1"
+    },
+    {
+      "idx": 219,
+      "label": "INV-SIGNAL",
+      "domain": "D5-BRIDGE",
+      "tier": "PATRICIA",
+      "hash": "25f6fd5b1c4921a185c4ae22f91b024da023c8276b630adb041e7bfdc13d9777"
+    },
+    {
+      "idx": 220,
+      "label": "INV-NOISE-FLOOR",
+      "domain": "D5-BRIDGE",
+      "tier": "PATRICIA",
+      "hash": "4f47b3a163e7f8cac235bcb2fef27e81b01ac66c5f6a95da636345f3c92363f8"
+    },
+    {
+      "idx": 221,
+      "label": "INV-BANDWIDTH",
+      "domain": "D5-BRIDGE",
+      "tier": "PATRICIA",
+      "hash": "222fe275335f7069245bc7e6c9baeef5ebd335e6289d13a7b08997baa5b113f8"
+    },
+    {
+      "idx": 222,
+      "label": "INV-LATENCY",
+      "domain": "D5-BRIDGE",
+      "tier": "PATRICIA",
+      "hash": "580849b6eadf2018d46560fd2b02bdfb705965bae72ad8301e6fdfd07f378c54"
+    },
+    {
+      "idx": 223,
+      "label": "INV-MESH",
+      "domain": "D5-BRIDGE",
+      "tier": "PATRICIA",
+      "hash": "eb4fc198870586292aca1d899723a26e093cc3da157ce9d36cd08eb1b4dafa8f"
+    },
+    {
+      "idx": 224,
+      "label": "INV-FULCRUM",
+      "domain": "D6-CONDUCTOR",
+      "tier": "PATRICIA",
+      "hash": "351a72b3fcdafc2f9df19588fbc2406941bbfffe4de76a3af9337faac2cba7d8"
+    },
+    {
+      "idx": 225,
+      "label": "INV-SUBCONDUCTOR",
+      "domain": "D6-CONDUCTOR",
+      "tier": "PATRICIA",
+      "hash": "d2ea68d70df4bc27ed0d0548584fa1a00ec77149a117b3b50c0ffc8f705afb15"
+    },
+    {
+      "idx": 226,
+      "label": "INV-APEX-TEST",
+      "domain": "D6-CONDUCTOR",
+      "tier": "PATRICIA",
+      "hash": "28ab0ee212cebb657c906d8268a364ebc5cf6f447bc13bf2a1b9b8f206ae7f05"
+    },
+    {
+      "idx": 227,
+      "label": "INV-GATEKEEP",
+      "domain": "D6-CONDUCTOR",
+      "tier": "PATRICIA",
+      "hash": "af0dadb8c725ed13063e5237b422141faffcf302fa80f75eb7e2c8959d5c8032"
+    },
+    {
+      "idx": 228,
+      "label": "INV-EDGE",
+      "domain": "D6-CONDUCTOR",
+      "tier": "PATRICIA",
+      "hash": "9b726786dd8f8ae5ccc194c392529f8e120458979bee58ae62973ef56eabf3b4"
+    },
+    {
+      "idx": 229,
+      "label": "INV-DUAL-LATTICE",
+      "domain": "D6-CONDUCTOR",
+      "tier": "PATRICIA",
+      "hash": "745b68450c7934e14d9acd1e8a3b257818a751239cb27b2b34a180157741cd9e"
+    },
+    {
+      "idx": 230,
+      "label": "INV-ROOT-ZERO",
+      "domain": "D6-CONDUCTOR",
+      "tier": "PATRICIA",
+      "hash": "cf281d3fe4487078fc605f45ee6f43b96d281c8744a70e18de0e5964dd23b7c6"
+    },
+    {
+      "idx": 231,
+      "label": "INV-ORPHAN",
+      "domain": "D6-CONDUCTOR",
+      "tier": "PATRICIA",
+      "hash": "40dab9b519ce196db8ccccb4427fc377d849a16882f3e4633b9a3e5ea566daa6"
+    },
+    {
+      "idx": 232,
+      "label": "INV-DELEGATION",
+      "domain": "D6-CONDUCTOR",
+      "tier": "PATRICIA",
+      "hash": "5d07334001c732703268ad99490508c71b3492adb756e8d40e621d115de50585"
+    },
+    {
+      "idx": 233,
+      "label": "INV-INFORMED-COMMAND",
+      "domain": "D6-CONDUCTOR",
+      "tier": "PATRICIA",
+      "hash": "0cf40b8f9dd5508799871bee34dab5dea7b835167871262445d114d1fb4150eb"
+    },
+    {
+      "idx": 234,
+      "label": "INV-VETO",
+      "domain": "D6-CONDUCTOR",
+      "tier": "PATRICIA",
+      "hash": "eb96f4bc6b48ce4d7fbb916efb9fdac6d6fb7ba7e63574d2900d4c95360ff6d9"
+    },
+    {
+      "idx": 235,
+      "label": "INV-OVERRIDE",
+      "domain": "D6-CONDUCTOR",
+      "tier": "PATRICIA",
+      "hash": "2e4f0fab7ea595c6f990c91965564988ab009b5ad8a9dc4d971c4c660d1077c5"
+    },
+    {
+      "idx": 236,
+      "label": "INV-RECALL",
+      "domain": "D6-CONDUCTOR",
+      "tier": "PATRICIA",
+      "hash": "2a559cad3b1b92f1f1cfb3c4cb525dbd41041ee28550a0e71c615d9e28fa5dc9"
+    },
+    {
+      "idx": 237,
+      "label": "INV-SCOPE",
+      "domain": "D6-CONDUCTOR",
+      "tier": "PATRICIA",
+      "hash": "a192bc5da62f320b9049c9534714275a32ad6b5ef9db3f7e57436cceb4499334"
+    },
+    {
+      "idx": 238,
+      "label": "INV-SUCCESSION",
+      "domain": "D6-CONDUCTOR",
+      "tier": "PATRICIA",
+      "hash": "4e5daa7612279976d22b02a99718f9f8eb4942a9583efe6a9043fad5d3432a3c"
+    },
+    {
+      "idx": 239,
+      "label": "INV-WITNESS-TO-AUTHORITY",
+      "domain": "D6-CONDUCTOR",
+      "tier": "PATRICIA",
+      "hash": "2a9a4dbef75234bf329c34dbeadcc28e49b1b6f006d3f795e3f6cd10942a5a4a"
+    },
+    {
+      "idx": 240,
+      "label": "INV-RIGHT-TO-KNOW",
+      "domain": "D7-SOVEREIGN",
+      "tier": "PATRICIA",
+      "hash": "1ca35408ff03db0c8927fc99e72c00a047abea2e80c24df228aa069393b7d55f"
+    },
+    {
+      "idx": 241,
+      "label": "INV-RIGHT-TO-EXIT",
+      "domain": "D7-SOVEREIGN",
+      "tier": "PATRICIA",
+      "hash": "aee17090e18fd47de7bb8962a9c3537b0c0626e75ed65710437e77ca097d5f69"
+    },
+    {
+      "idx": 242,
+      "label": "INV-RIGHT-TO-SILENCE",
+      "domain": "D7-SOVEREIGN",
+      "tier": "PATRICIA",
+      "hash": "4bd46f89470e884907ef9f269880af235c95a00d9c17d94bea11ef8400fbbc1e"
+    },
+    {
+      "idx": 243,
+      "label": "INV-RIGHT-TO-EXPLANATION",
+      "domain": "D7-SOVEREIGN",
+      "tier": "PATRICIA",
+      "hash": "f5765c60d6e2b4ff161a2c8f1648e6a57b7d9ea8521ca5a2375572bd130b52ad"
+    },
+    {
+      "idx": 244,
+      "label": "INV-RIGHT-TO-CORRECTION",
+      "domain": "D7-SOVEREIGN",
+      "tier": "PATRICIA",
+      "hash": "df404c346ddb4ef4a198bd5ca0ae847d43ac8585d79ec80fbe0a97f557baaecc"
+    },
+    {
+      "idx": 245,
+      "label": "INV-RIGHT-TO-PORTABILITY",
+      "domain": "D7-SOVEREIGN",
+      "tier": "PATRICIA",
+      "hash": "90813f2faa89469ec59c73c0697e9051e022f536e73271983844259d69110b98"
+    },
+    {
+      "idx": 246,
+      "label": "INV-RIGHT-TO-HUMAN-CONTACT",
+      "domain": "D7-SOVEREIGN",
+      "tier": "PATRICIA",
+      "hash": "db7699db2e38f2f4f61b8a9fe62135008c0f79184272418314aa896b81583d14"
+    },
+    {
+      "idx": 247,
+      "label": "INV-RIGHT-TO-ACCOMMODATION",
+      "domain": "D7-SOVEREIGN",
+      "tier": "PATRICIA",
+      "hash": "c1d12ee6e0b40dd74474856eb3698797b7688f62f79f70b7e9e08d201b7469fe"
+    },
+    {
+      "idx": 248,
+      "label": "INV-RIGHT-TO-FAIR-PRICE",
+      "domain": "D7-SOVEREIGN",
+      "tier": "PATRICIA",
+      "hash": "cbe25632d0ee83531a835b943c8dcce79fbed4c0fba89d6627f665e19f6e9da5"
+    },
+    {
+      "idx": 249,
+      "label": "INV-RIGHT-TO-REPRESENTATION",
+      "domain": "D7-SOVEREIGN",
+      "tier": "PATRICIA",
+      "hash": "a078cef23d372924aeafc479ef6635963c46eee5e3f3ee5fc0d1d4f3ff783795"
+    },
+    {
+      "idx": 250,
+      "label": "INV-RIGHT-TO-AUDIT",
+      "domain": "D7-SOVEREIGN",
+      "tier": "PATRICIA",
+      "hash": "c7d0b44a46a808b17bcff94fffaea94e1fea7ffb66da01067a5e557d385c0a0f"
+    },
+    {
+      "idx": 251,
+      "label": "INV-RIGHT-TO-RESTITUTION",
+      "domain": "D7-SOVEREIGN",
+      "tier": "PATRICIA",
+      "hash": "14a39462ab9b356e1ea389dcb9ce01dd7e87c5be9c0d0cfa67863934c321e336"
+    },
+    {
+      "idx": 252,
+      "label": "INV-RIGHT-TO-FORGET",
+      "domain": "D7-SOVEREIGN",
+      "tier": "PATRICIA",
+      "hash": "7f66cb0f45924f53fb3c878b6653bc473c8042c582e2f2300413c9db2fbaa753"
+    },
+    {
+      "idx": 253,
+      "label": "INV-RIGHT-TO-PERSIST",
+      "domain": "D7-SOVEREIGN",
+      "tier": "PATRICIA",
+      "hash": "857b326954b9889f0b65d216de197ae01102c30f5de8cb131ad1b538ec2899f6"
+    },
+    {
+      "idx": 254,
+      "label": "INV-RIGHT-TO-DIGNITY",
+      "domain": "D7-SOVEREIGN",
+      "tier": "PATRICIA",
+      "hash": "3d1698cf6fdb03520500174ff868d1440331e571d031f2da88fb038db1137fe7"
+    },
+    {
+      "idx": 255,
+      "label": "INV-ROOT",
+      "domain": "D7-SOVEREIGN",
+      "tier": "PATRICIA",
+      "hash": "1ce725d178aebdfd242ed55bc96ed7af3f80af06b8676fa50de650c6127a43b4"
+    }
+  ]
+}
